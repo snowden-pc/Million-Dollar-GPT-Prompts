@@ -15,9 +15,9 @@ const FeaturedPrompts: React.FC = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Featured Prompts</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex justify-center">
           {featuredPrompts.map((prompt, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden max-w-md">
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{prompt.title}</h3>
                 <p className="text-gray-600 mb-4">{prompt.description}</p>
@@ -30,9 +30,14 @@ const FeaturedPrompts: React.FC = () => {
                 </div>
               </div>
               <div className="px-6 py-4 bg-gray-50">
-                <button className="w-full py-2 px-4 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors">
+                <a
+                  href="https://tensaiway.gumroad.com/l/million-dollar-gpt-prompts"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full py-2 px-4 bg-indigo-600 text-white text-center rounded-md hover:bg-indigo-700 transition-colors"
+                >
                   Add to Cart
-                </button>
+                </a>
               </div>
             </div>
           ))}
