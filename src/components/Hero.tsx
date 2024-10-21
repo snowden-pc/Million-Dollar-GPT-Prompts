@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
           Elevate your AI interactions with our curated collection of high-impact prompts. Designed for innovators, creators, and problem-solvers.
         </p>
         <a
-          href="#"
+          href="https://tensaiway.gumroad.com/l/million-dollar-gpt-prompts"
           className="inline-flex items-center px-6 py-3 text-lg font-semibold text-white bg-indigo-600 rounded-full hover:bg-indigo-700 transition-colors"
         >
           Explore Prompts <ArrowRight className="ml-2 h-5 w-5" />
