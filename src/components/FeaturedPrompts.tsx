@@ -3,23 +3,11 @@ import { Star } from 'lucide-react';
 
 const featuredPrompts = [
   {
-    title: 'AI-Powered Business Strategy',
-    description: 'Develop comprehensive business strategies with AI assistance.',
-    price: 299,
+    title: 'Million Dollar GPT Prompts!',
+    description: 'Secrets for Marketers, Influencers, Entrepreneurs, Engineers, and Everyone in Between.',
+    price: 19.99,
     rating: 4.9,
-  },
-  {
-    title: 'Creative Writing Masterclass',
-    description: 'Generate captivating stories and characters with AI prompts.',
-    price: 199,
-    rating: 4.8,
-  },
-  {
-    title: 'Code Optimization Genius',
-    description: 'Enhance your coding skills and optimize algorithms effortlessly.',
-    price: 249,
-    rating: 4.7,
-  },
+  }
 ];
 
 const FeaturedPrompts: React.FC = () => {
